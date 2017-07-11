@@ -1,4 +1,8 @@
-function playSound(e){
+/*
+*We could maek this into a Garageband type of thing
+* Were a plaer can make a beat using easy/medium and hard
+*
+*/function playSound(e){
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
   if(!audio)
